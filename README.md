@@ -12,9 +12,9 @@ vtask is a simple CLI.
   vtask [command]
 
   Available Commands:
-    version             Prints current version of the CLI
-    help                Views more information about this program
-    run [-f | --file]   Starts the HTTP web server and serves HTML file provided as an argument
+    version                      Prints current version of the CLI
+    help                         Views more information about this program
+    run [-f | --file] filename   Starts the HTTP web server and serves HTML file provided as an argument
 ```
 
 **How to install and run**
