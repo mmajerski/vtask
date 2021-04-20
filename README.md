@@ -21,6 +21,13 @@ vtask is a simple CLI.
 
 Run every command from root directory.
 
+```
+$ git clone https://github.com/userq11/vtask.git
+$ cd vtask
+$ go run main.go run --file sampledata/index.html
+Server with file has started on http://localhost:9090 (^C to exit)
+```
+
 You can just run straightforward
 
 ```
