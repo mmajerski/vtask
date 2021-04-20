@@ -28,8 +28,8 @@ func TestTableTests(t *testing.T) {
 
 	for _, tc := range testCases {
 		got := runCmd(tc.cmd, tc.args)
-		if string(got) != tc.want {
-			t.Fatalf("%s: expected \"%s\" got \"%s\"", tc.name, tc.want, string(got))
+		if got != tc.want {
+			t.Fatalf("%s: expected \"%s\" got \"%s\"", tc.name, tc.want, got)
 		}
 	}
 }
