@@ -68,9 +68,9 @@ Usage:
 vtask [command]
 
 Available Commands:
-        version                   Prints current version of the CLI
-        help                      Views more information about this program
-        run [-f | --file]         Starts the HTTP web server and serves HTML file provided as an argument
+	version                         Prints current version of the CLI
+	help                            Views more information about this program
+	run [-f | --file] filename      Starts the HTTP web server and serves HTML file provided as an argument
 
 $ vtask run
 Please check help and provide a HTML file as an argument with --file flag
